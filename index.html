@@ -15,6 +15,7 @@
         }
 
         .img-div {
+            margin-top: 80px;
             display: flex;
             justify-content: center;
         }
@@ -107,10 +108,56 @@
             text-align: start;
             width: 300px;
         }
+        .profile-img
+        {
+            border-radius: 50%;
+        }
     </style>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-white border shadow-sm fixed-top ">
+        <div class="container-fluid navbar overflow-hidden">
+            <a class="navbar-brand " href="#"><img
+                    src="https://www.roadtocode.org/static/media/logo.f6ff01cb815df8ef175c.png" alt="rtc" height="40px"
+                    class="ms-5"><span class="ms-3 ">Road To Code</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto  mb-lg-0">
+                    <li class="nav-item ms-5">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-5 ">
+                        <a class="nav-link" href="#coursess">Courses</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link" href="#">Internship</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link" href="#">Campus ambassador</a>
+                    </li>
+                    <li class="nav-item dropdown ms-5">
+                        <a class="nav-link dropdown-toggle" href="#about-us" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About us
+                        </a>
+
+                    </li>
+                    <li class="nav-item ms-5 profile ">
+                        <a href="#" class="nav-link "> <img class="profile-img"
+                                src="https://lh3.googleusercontent.com/a-/AOh14Gg9sjm2h3Kc5WKOv1QCg881Oi-PQL1fIOch6yvyMw=s96-c"
+                                height="40px" alt="profile" class="profile border border-warning ms-3"><span
+                                class="ms-3">Amit Dorle</span></a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="row m-2">
         <div class="col-lg-6 img-div">
             <img class="img" src="https://www.roadtocode.org/static/media/header-img.fb4ac258c2d233f06c0d.png">
@@ -301,26 +348,28 @@
         <img class="our-team-img" src="https://www.roadtocode.org/static/media/team.3654d8095163f33ace57.jpeg"
             height="380px" width="550px" />
     </div><br /><br />
-    <h1 class="head-2">FAQs about RTC courses</h1>
-    <div>
+    <div class="faq mt-5 text-center" id="about-us">
+        <h2>FAQs about RTC courses</h2>
+    </div>
+    <div class="faqcoin mt-3">
         <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
+            <div class="accordion-item p-3">
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        How many times I can book 1:1 doubt session ?
+                        How many time can i book 1:1 doubts session?
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">For each course you can book 1 doubt session per week.</div>
+                    <div class="accordion-body">For each course you can book 1 doubt session per week</div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item p-3">
                 <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Does these courses comes with certificate ?
+                        Does this course come with certificate?
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
@@ -328,33 +377,36 @@
                     <div class="accordion-body">Yes. All of our paid course comes with certificate.</div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item p-3">
                 <h2 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Do you offer refund ?
+                        Do you offer refund
                     </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">We do not offer refund at this platform. Sorry, We are not a marketplace
-                        where quality can be miss lead by fake reviews.</div>
+                    <div class="accordion-body">We do not offer refund at this platform. Sorry, We are not a
+                        marketplace where quality can be miss lead by fake reviews.</div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item p-3">
                 <h2 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Does the project is included in the same fees ?
+                        Do you offer refund
                     </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Yes. With each courses we provide at least 2 mini project & You don't
-                        have to pay any extra charges.</div>
+                    <div class="accordion-body">We do not offer refund at this platform. Sorry, We are not a
+                        marketplace where quality can be miss lead by fake reviews.</div>
                 </div>
             </div>
+
+
         </div>
+    </div>
     </div>
     <br /><br />
     <h1 class="head-2 mb-5">Learning is fun. Join us to learn more.</h1>
@@ -434,7 +486,8 @@
             <div class="col-lg-3 col-md-12 col-sm-12 footer">
                 <h4 style="color: white; margin-bottom: 35px; margin-top: 20px;">Contact</h4>
                 <p style="color: white;">🏙️Nagpur , Maharashtra</p>
-                <a href="tel:8380981074" style="color: white; margin-bottom: 20px; text-decoration: none;">📞+8380981074</a><br>
+                <a href="tel:8380981074"
+                    style="color: white; margin-bottom: 20px; text-decoration: none;">📞+8380981074</a><br>
                 <a href="mailto:Amitdorle111@gmail.com"
                     style="color: white; margin-bottom: 20px; text-decoration: none;">📧roadtocode4u@gmail.com</a>
             </div>
