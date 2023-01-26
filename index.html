@@ -6,9 +6,11 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="/css/style.css" rel="stylesheet" />
     <style>
         body {
             font-family: sans-serif;
+            margin: 30px;
         }
 
         .img {
@@ -24,8 +26,10 @@
         .info-div {
             display: flex;
             justify-content: center;
+            text-align: left;
             flex-direction: column;
             font-size: larger;
+
         }
 
         .logo {
@@ -82,24 +86,31 @@
         }
 
         .button-div {
-            justify-content: center;
+            justify-content: left;
             text-align: center;
         }
 
         .our-team-div {
             text-align: center;
-            font-size: 30px;
         }
+
         .our-team-img {
             border-radius: 5px;
             box-shadow: 2px 2px 2px 3px black;
+            height: 350px;
+            width: 550px;
         }
+
         .parent3 {
             display: flex;
             justify-content: space-evenly;
             width: 100%;
             margin-top: 100px;
             background-color: black;
+        }
+
+        .navbar-collapse {
+            margin-left: 400px;
         }
 
         .footer {
@@ -122,39 +133,39 @@
     <nav class="navbar navbar-expand-lg bg-white border shadow-sm fixed-top ">
         <div class="container-fluid navbar">
             <a class="navbar-brand " href="#"><img
-                    src="https://www.roadtocode.org/static/media/logo.f6ff01cb815df8ef175c.png" alt="rtc" height="40px"
-                    class="ms-5"><span class="ms-3 ">Road To Code</span></a>
+                    src="https://www.roadtocode.org/static/media/logo.d5bf81e700da9d2d0cd9.png" alt="rtc" height="30px"
+                    class="ms-5"><span class="ms-2">Road To Code</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav  mb-lg-0">
-                    <li class="nav-item ms-5">
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item ms-5 ">
-                        <a class="nav-link" href="#coursess">Courses</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#coursess">Spaceship</a>
                     </li>
-                    <li class="nav-item ms-5">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Internship</a>
                     </li>
-                    <li class="nav-item ms-5">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Campus ambassador</a>
                     </li>
-                    <li class="nav-item dropdown ms-5">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#about-us" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             About us
                         </a>
 
                     </li>
-                    <li class="nav-item ms-5 profile ">
+                    <li class="nav-item profile ">
                         <a href="#" class="nav-link "> <img class="profile-img"
-                                src="https://lh3.googleusercontent.com/a-/AOh14Gg9sjm2h3Kc5WKOv1QCg881Oi-PQL1fIOch6yvyMw=s96-c"
-                                height="40px" alt="profile" class="profile border border-warning ms-3"><span
-                                class="ms-3">Amit Dorle</span></a>
+                                src="https://media.licdn.com/dms/image/D4E35AQHzy7bbxO0cYQ/profile-framedphoto-shrink_400_400/0/1664295504731?e=1675188000&v=beta&t=xm1CQ5LpwPfQBOLOcYjUK1OPUEG3l5nmrNkz1MKsl5Y12"
+                                height="30px" alt="profile" class="profile border border-warning ms-3"><span
+                                class="ms-3">Rohit Mankar</span></a>
                     </li>
                 </ul>
             </div>
@@ -162,193 +173,111 @@
     </nav>
     <div class="row m-2">
         <div class="col-lg-6 img-div">
-            <img class="img" src="https://www.roadtocode.org/static/media/header-img.fb4ac258c2d233f06c0d.png">
+            <img class="img"
+                src="https://www.roadtocode.org/static/media/header-img.ff5e7c11fbb75ad6e7374834c9354de5.svg">
         </div>
         <div class="col-lg-6 info-div">
             <h1>Quality courses at affordable pricing, trusted by 1500+ students.</h1>
-            <h3>Our aim is to provide affordable computer science education for everyone.</h3>
+            <p style="font-size: 23px;color: gray;">Our aim is to provide affordable computer science education for
+                everyone.</p>
             <div class="d-flex align-items-center button-div">
 
-                <button class="bg-warning fw-bold m-3 btn rounded-3">Explore Cources</button>
-                <button class="bg-dark text-bg-danger m-3 btn rounded-3">Call
+                <button class="bg-dark fw-bold m-3 btn rounded-2">Explore Cources</button>
+                <button class="bg-warning text-bg-danger m-3 btn rounded-2">Call
                     us</button>
             </div>
         </div>
     </div>
-    <h1 class="head-1 mb-5">What makes RTC courses special?</h1>
-    <div class="row cource-div">
 
-        <div class="col-lg-6">
 
-            <div cou-spe-div>
+    <div>
+        <p style="margin-left: 50px;color: #4285f4;font-size: 30px; ">UNIQUE features of RTC</p>
+        <p style="margin-left: 50px;font-size: 30px; ">Learn by building and breaking stuff.
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="feat m-4">
                 <img src="https://www.roadtocode.org/static/media/live-classes.a74ad582e0a434c1af413d9491d85524.svg"
-                    class="img-cou-spe" />
-                <h1>Live Interactive Classes</h1>
-                <p>Learning made easy with live interactive classes.</p>
+                    class="feat-img" /><br />
+                <h4 style="margin-left: 10px;">Live and interactive classes.</h4>
             </div>
-
-
-            <div>
-                <img src="https://www.roadtocode.org/static/media/doubt-assistant.fe0083578af89bf10b57dd80a12bf12b.svg"
-                    class="img-cou-spe" />
-                <h1>1:1 Doubt Sessions</h1>
-                <p>You can have doubt sessions to solve your doubts or any general queries.</p>
-            </div>
-
-            <div>
-                <img src="https://www.roadtocode.org/static/media/recorded-classes.49284f3d905e2cc4d916a63f9a81c97a.svg"
-                    class="img-cou-spe" />
-                <h1>Recorded Videos</h1>
-                <p>Recorded lectures in case you miss a class or wish to revise the concepts</p>
+            <div class="feat m-4">
+                <img src="https://www.roadtocode.org/static/media/structured-learning.3b907cd0da162dcb4a61429f2cd6d35b.svg"
+                    class="feat-img" /><br />
+                <h4 style="margin-left: 10px;">Structured Learning.</h4>
             </div>
         </div>
-
-        <div class="col-lg-6">
-            <div>
-                <img src="https://www.roadtocode.org/static/media/structured-learning.3b907cd0da162dcb4a61429f2cd6d35b.svg"
-                    class="img-cou-spe" />
-                <h1>Structured Learning</h1>
-                <p>Each course is designed using instructional methodologies</p>
+        <div class="col-lg-4">
+            <div class="feat m-4">
+                <img src="https://www.roadtocode.org/static/media/recorded-classes.49284f3d905e2cc4d916a63f9a81c97a.svg"
+                    class="feat-img" /><br />
+                <h4 style="margin-left: 10px;">Recorded videos of live classes.</h4>
             </div>
-
-            <div>
-                <img src="https://www.roadtocode.org/static/media/mentorship.b57cc4b9168913392236e1abe9207490.svg"
-                    class="img-cou-spe" />
-                <h1>Personal Mentorship</h1>
-                <p>Each students each is provided with a personal mentor to enhace the learning experience</p>
+            <div class="feat m-4">
+                <img src="https://www.roadtocode.org/static/media/doubt-assistant.fe0083578af89bf10b57dd80a12bf12b.svg"
+                    class="feat-img" /><br />
+                <h4 style="margin-left: 10px;">1:1 Doubt Assistance</h4>
             </div>
-
-            <div>
-                <img src="https://www.roadtocode.org/static/media/internship.9c9cce2539d1621bb74365daad2d79ca.svg"
-                    class="img-cou-spe" />
-                <h1>Internship Support</h1>
-                <p>Free internship support with our Int-Earn platform</p>
-            </div>
+        </div>
+        <div class="col-lg-4">
+            <img src="https://www.roadtocode.org/static/media/general-features-main.bf2a1bb40bde26c0d83a67526ce474cf.svg"
+                height="350px" class="Stud-img" />
         </div>
     </div>
+
+
+
+
     <h1 class="head-2">Cources</h1>
-    <div class="row m-5">
-        <div class="col-lg-3 shadow cource-box">
-            <img class="rounded img-fluid  w-100 "
-                src="https://raw.githubusercontent.com/roadtocode-org/static-data/main/course-headers/cpp.png">
-            <h5 class="fs-5 d-flex align-items-start">C++ Programming</h5>
-            <del class="text-danger">₹2000 &nbsp;&nbsp;&nbsp;</del>₹499 only/-&nbsp;&nbsp;&nbsp;&nbsp;<p
-                class="badge rounded-pill bg-success">&nbsp;75%off</p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-teacher.ceda93cdb0f9a73d816990e8ac3ddf3f.svg"
-                    class="cource-card-ico">Instructor :
-                <b>Suraj Shende</b>
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-level.41670be57da7a3882ff458237514af1b.svg"
-                    class="cource-card-ico">Level : Beginner
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-rating.f244f7994efe9d056d869a2a324a2b99.svg"
-                    class="cource-card-ico">Rating : ⭐⭐⭐⭐(354)
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-batch-time.0c7190eb19c68c12bb819c89cb5591f8.svg"
-                    class="cource-card-ico">Batch Time: 8:00PM to 9:00PM
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-calendar.a95ca9a552080f3b41b1eaf463dc08cb.svg"
-                    class="cource-card-ico">Starts on: 7th November 2022
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <span class="cource-card-ico">📞</span>
-                Call here to join cource: 8380981074
-            </p>
-            <button class="fs-5 btn btn-warning w-100">Enroll Now</button>
-
+    <div class="parent row">
+        <div class="cource-card-container col-lg-4">
+            <img src="/img/c.png" alt="C Programming" class="cource-img" />
+            <h3 class="cource-card-title">C Programming</h3>
+            <div class="info">Learn C Programming from Scratch and Kickstart your career in Computer Science</div><br />
+            <div style="color: rgb(100, 98, 98);font-size: 18px;">
+                📅Starting from 1st February 2023
+            </div>
+            <p style="text-align: center;font-size: 25px;">Only at ₹ 499 /-</p>
+            <hr>
+            <div class="btn-container">
+                <input type="button" class="btn" value="Know More" />
+            </div>
         </div>
-        <div class="col-lg-3 shadow cource-box">
-            <img class="rounded img-fluid w-100 "
-                src="https://raw.githubusercontent.com/roadtocode4u/static-data/main/course-headers/icp.png">
-            <h5 class="fs-5 d-flex align-items-start">Internship Cohort Program 4.0</h5>
-            <del class="text-danger">₹3000 &nbsp;&nbsp;&nbsp;</del>₹999 only/-&nbsp;&nbsp;&nbsp;&nbsp;<button
-                class="badge rounded-pill bg-success">&nbsp;67%off</button>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-teacher.ceda93cdb0f9a73d816990e8ac3ddf3f.svg"
-                    class="cource-card-ico">Instructor :
-                <b>Suraj Shende</b>
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-level.41670be57da7a3882ff458237514af1b.svg"
-                    class="cource-card-ico">Level : Beginner
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-rating.f244f7994efe9d056d869a2a324a2b99.svg"
-                    class="cource-card-ico">Rating : ⭐⭐⭐⭐(154)
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-batch-time.0c7190eb19c68c12bb819c89cb5591f8.svg"
-                    class="cource-card-ico">Batch Time: 7:00PM to 8:00PM
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-calendar.a95ca9a552080f3b41b1eaf463dc08cb.svg"
-                    class="cource-card-ico">Starts on: 15 December 2022
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <span class="cource-card-ico">📞</span>
-                Call here to join cource: 8380981074
-            </p>
-            <button class="fs-5 btn btn-warning w-100">Enroll Now</button>
-
+        <div class="cource-card-container col-lg-4">
+            <img src="/img/icp.png" alt="Internship Cohort Program 5.0" class="cource-img" />
+            <h4 class="cource-card-title">Internship Cohort Program 5.0</h4>
+            <div class="info">Learn Fullstack Development and Become Internship Ready in Just 4 Months 🚀</div><br />
+            <div style="color: rgb(100, 98, 98);font-size: 18px;">
+                📅Starting from 4th May 2023
+            </div>
+            <p style="text-align: center;font-size: 25px;">Only at ₹ 999 /-</p>
+            <hr>
+            <div class="btn-container">
+                <input type="button" class="btn" value="Know More" />
+            </div>
         </div>
-
-        <div class="col-lg-3 shadow cource-box">
-            <img class="rounded img-fluid w-100  "
-                src="https://raw.githubusercontent.com/roadtocode-org/static-data/main/course-headers/python.png?new">
-            <h5 class="fs-5 d-flex align-items-start">Python Programming</h5>
-            <del class="text-danger ">₹2000 &nbsp;&nbsp;&nbsp;</del>₹499 only/-&nbsp;&nbsp;&nbsp;&nbsp;<button
-                class="badge rounded-pill bg-success ">&nbsp;75%off</button>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-teacher.ceda93cdb0f9a73d816990e8ac3ddf3f.svg"
-                    class="cource-card-ico">Instructor :
-                <b>Vaibhavi Hole</b>
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-level.41670be57da7a3882ff458237514af1b.svg"
-                    class="cource-card-ico">Level : Beginner
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-rating.f244f7994efe9d056d869a2a324a2b99.svg"
-                    class="cource-card-ico">Rating : ⭐⭐⭐⭐(154)
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-batch-time.0c7190eb19c68c12bb819c89cb5591f8.svg"
-                    class="cource-card-ico">Batch Time: 6:00PM to 7:00PM
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <img src="https://www.roadtocode.org/static/media/ico-calendar.a95ca9a552080f3b41b1eaf463dc08cb.svg"
-                    class="cource-card-ico">Starts on: 1 january 2022
-
-            </p>
-            <p class="fs-5 d-flex align-items-start">
-                <span class="cource-card-ico">📞</span>
-                Call here to join cource: 8380981074
-            </p>
-            <button class="fs-5 btn btn-warning w-100">Enroll Now</button>
-
+        <div class="cource-card-container col-lg-4">
+            <img src="/img/cpp.png" alt="C++ Programming" class="cource-img" />
+            <h3 class="cource-card-title">C++ Programming</h3>
+            <div class="info">Learn C++ Programming from Scratch and Master the concepts of Object Oriented Programming
+            </div><br />
+            <div style="color: rgb(100, 98, 98);font-size: 18px;">
+                📅Starting from 1st April 2023
+            </div>
+            <p style="text-align: center;font-size: 25px;">Only at ₹ 499 /-</p>
+            <hr>
+            <div class="btn-container">
+                <input type="button" class="btn" value="Know More" />
+            </div>
         </div>
     </div>
     <h1 class="head-2">Our Team</h1>
     <div class="our-team-div">
-        <p>We are mad teachers/programmers who love to teach and make students learn.</p>
-        <img class="our-team-img container" src="./img/team.jpeg"
-            />
+        <p style="font-size: 25px;color: rgb(105, 103, 100);">We are mad teachers/programmers who love to teach and make
+            students learn.</p>
+        <img class="our-team-img container" src="./img/team.jpeg" />
     </div><br /><br />
     <div class="faq mt-5 text-center" id="about-us">
         <h2>FAQs about RTC courses</h2>
@@ -411,96 +340,102 @@
     <br /><br />
     <h1 class="head-2 mb-5">Learning is fun. Join us to learn more.</h1>
     <div>
-        <div class="row">
-            <div class="col-lg-3 learning-img">
-                <img src="https://www.roadtocode.org/static/media/linkedin.cb73502a448b9dd149354936acea6adf.svg" />
+        <div class="row learning-img-parent">
+            <div class="col-lg-3">
+                <img class="learning-img"
+                    src="https://www.roadtocode.org/static/media/linkedin.cb73502a448b9dd149354936acea6adf.svg" />
             </div>
-            <div class="col-lg-3 learning-img">
-                <img src="https://www.roadtocode.org/static/media/github.895050b20cdc3aefa3177ef8508b789b.svg" />
+            <div class="col-lg-3">
+                <img class="learning-img"
+                    src="https://www.roadtocode.org/static/media/github.895050b20cdc3aefa3177ef8508b789b.svg" />
+            </div>
+
+
+            <div class="col-lg-3">
+                <img class="learning-img"
+                    src="https://www.roadtocode.org/static/media/youtube.9657da68972e0d2e717f7500aca9716a.svg" />
+            </div>
+            <div class="col-lg-3">
+                <img class="learning-img"
+                    src="https://www.roadtocode.org/static/media/instagram.210cf76bc5cf8c563cfa8b62bbbb406d.svg" />
+            </div>
+
+        </div>
+
+        <div class="row m-2">
+            <div class="row parent3 col-lg-12">
+                <div class="col-lg-3 col-md-12 col-sm-12 footer">
+                    <h2 style="color: white; margin-bottom: 35px; margin-top: 20px;"><img
+                            src="https://www.roadtocode.org/static/media/logo.d5bf81e700da9d2d0cd9.png" height="50px" />
+                        Road To Code</h2>
+                    <p style="color: white; font-size: 15px;">Affordable Computer Science Education For Everyone. We
+                        Provide
+                        Quality courses which are trusted by 1500+ students.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12 footer">
+                    <h3 style="color: white; margin-bottom: 35px; margin-top: 20px;">Links</h3>
+                    <a href="" style="text-decoration: none">
+                        <h4
+                            style="color: white; margin-bottom: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                            Home</h4>
+                    </a>
+                    <a href="" style="text-decoration: none">
+                        <h4
+                            style="color: white; margin-bottom: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                            Search</h4>
+                    </a>
+                    <a href="" style="text-decoration: none">
+                        <h4
+                            style="color: white; margin-bottom: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                            Contact</h4>
+                    </a>
+                    <a href="" style="text-decoration: none">
+                        <h4
+                            style="color: white; margin-bottom: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                            About Us</h4>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 footer">
+                    <h3 style="color: white; margin-bottom: 35px; margin-top: 20px;">Learn</h3>
+
+                    <a href="" style="text-decoration: none">
+                        <h4 style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">Data
+                            Structure</h4>
+                    </a>
+                    <a href="" style="text-decoration: none">
+                        <h4 style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">Web
+                            Developement</h4>
+                    </a>
+                    <a href="" style="text-decoration: none">
+                        <h4 style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                            Programming</h4>
+                    </a>
+                    <a href="" style="text-decoration: none">
+                        <h4 style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
+                            Android
+                            Developement</h4>
+                    </a>
+
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 footer">
+                    <h4 style="color: white; margin-bottom: 35px; margin-top: 20px;">Contact</h4>
+                    <p style="color: white;">🏙️Akola , Maharashtra</p>
+                    <a href="tel:8380981074"
+                        style="color: white; margin-bottom: 20px; text-decoration: none;">📞+7709637165</a><br>
+                    <a href="mailto:Rohitmankar111@gmail.com"
+                        style="color: white; margin-bottom: 20px; text-decoration: none;">📧roadtocode4u@gmail.com</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <h5 class="text-center">Copyright © Road to Code 2021.</h5>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-3 learning-img">
-                <img src="https://www.roadtocode.org/static/media/youtube.9657da68972e0d2e717f7500aca9716a.svg" />
-            </div>
-            <div class="col-lg-3 learning-img">
-                <img src="https://www.roadtocode.org/static/media/instagram.210cf76bc5cf8c563cfa8b62bbbb406d.svg" />
-            </div>
-        </div>
-    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
 
-    <div class="row m-2">
-        <div class="row parent3 col-lg-12">
-            <div class="col-lg-3 col-md-12 col-sm-12 footer">
-                <h2 style="color: white; margin-bottom: 35px; margin-top: 20px;"><img
-                        src="https://www.roadtocode.org/static/media/logo.f6ff01cb815df8ef175c.png" height="50px" />
-                    Road To Code</h2>
-                <p style="color: white; font-size: 15px;">Affordable Computer Science Education For Everyone. We Provide
-                    Quality courses which are trusted by 1500+ students.</p>
-            </div>
-
-            <div class="col-lg-3 col-md-12 col-sm-12 footer">
-                <h3 style="color: white; margin-bottom: 35px; margin-top: 20px;">Links</h3>
-                <a href="" style="text-decoration: none">
-                    <h4
-                        style="color: white; margin-bottom: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
-                        Home</h4>
-                </a>
-                <a href="" style="text-decoration: none">
-                    <h4
-                        style="color: white; margin-bottom: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
-                        Search</h4>
-                </a>
-                <a href="" style="text-decoration: none">
-                    <h4
-                        style="color: white; margin-bottom: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
-                        Contact</h4>
-                </a>
-                <a href="" style="text-decoration: none">
-                    <h4
-                        style="color: white; margin-bottom: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
-                        About Us</h4>
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 footer">
-                <h3 style="color: white; margin-bottom: 35px; margin-top: 20px;">Learn</h3>
-
-                <a href="" style="text-decoration: none">
-                    <h4 style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">Data
-                        Structure</h4>
-                </a>
-                <a href="" style="text-decoration: none">
-                    <h4 style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">Web
-                        Developement</h4>
-                </a>
-                <a href="" style="text-decoration: none">
-                    <h4 style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">
-                        Programming</h4>
-                </a>
-                <a href="" style="text-decoration: none">
-                    <h4 style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;">Android
-                        Developement</h4>
-                </a>
-
-            </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 footer">
-                <h4 style="color: white; margin-bottom: 35px; margin-top: 20px;">Contact</h4>
-                <p style="color: white;">🏙️Nagpur , Maharashtra</p>
-                <a href="tel:8380981074"
-                    style="color: white; margin-bottom: 20px; text-decoration: none;">📞+8380981074</a><br>
-                <a href="mailto:Amitdorle111@gmail.com"
-                    style="color: white; margin-bottom: 20px; text-decoration: none;">📧roadtocode4u@gmail.com</a>
-            </div>
-        </div>
-        <div class="copyright">
-            <h5 class="text-center">Copyright © Road to Code 2021.</h5>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
-
-        </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 
 </html>
